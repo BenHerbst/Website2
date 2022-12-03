@@ -1,0 +1,39 @@
+#imageSlidshow {
+    border-radius: 52px;
+    background: #e0e0e0;
+    box-shadow:  26px 26px 51px #bebebe,
+                 -26px -26px 51px #ffffff;
+}
+
+body, html {
+    color: black;
+    font-size: 55px;
+    font-family: 'Roboto';
+}
+
+#title {
+    font-family: 'Inter';
+    font-size: 90px;
+    margin-bottom: -30px;
+}
+
+#text {
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.description {
+    margin-bottom: -50px;
+}
+
+.fa {
+    color: black;
+    text-decoration: none;
+    font-size: 100px !important;
+    margin-right: 30px;
+}
+
+#socials {
+    margin-top: 280px;
+    margin-left: 200px;
+}
