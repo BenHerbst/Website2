@@ -1,8 +1,10 @@
-#imageSlidshow {
-    border-radius: 52px;
+#imageSlideshow {
+    border-radius: 45px;
     background: #e0e0e0;
     box-shadow:  26px 26px 51px #bebebe,
                  -26px -26px 51px #ffffff;
+    padding: 30px;
+    min-height: 600px;
 }
 
 body, html {
@@ -36,4 +38,19 @@ body, html {
 #socials {
     margin-top: 280px;
     margin-left: 200px;
+}
+
+#imageGallery {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    display: block;
+}
+
+img {
+    float: left;
+    border-radius: 30px;
+    width:  650px;
+    height: 600px;
+    object-fit: cover;
 }
